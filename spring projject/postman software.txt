@@ -1,0 +1,17 @@
+///add quiz
+http://localhost:8080/create
+
+{
+	"title": "uncharted",
+	"skill_type": "shooting",
+	"pass_score": "50",
+	"num_questions": "30",
+	"duration": "5"
+}
+
+****************************************************************
+///add question
+
+http://localhost:8080//quizzes/quizId/question
+
+{"description": "how good are you at playing uncharetd?"}
